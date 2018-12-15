@@ -1,5 +1,10 @@
-import { Component } from '@angular/core';
-
+import { Component, NgModule } from '@angular/core';
+import { MaterialModule } from './material/material.module';
+@NgModule({
+  imports:[
+    MaterialModule
+  ]
+})
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
