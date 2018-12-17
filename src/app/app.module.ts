@@ -48,6 +48,7 @@ import { TablestudentComponent } from './tablestudent/tablestudent.component';
     MatPaginatorModule,
     MatSortModule,
 
+
   ],
   providers: [],
   bootstrap: [AppComponent]

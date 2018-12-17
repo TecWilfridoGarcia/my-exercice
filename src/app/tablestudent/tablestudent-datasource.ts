@@ -6,17 +6,14 @@ import { Observable, of as observableOf, merge } from 'rxjs';
 // TODO: Replace this with your own data model type
 export interface TablestudentItem {
   name: string;
+
   id: number;
 }
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: TablestudentItem[] = [
-  {id: 1, name: 'Hydrogen'},
-  {id: 2, name: 'Helium'},
-  {id: 3, name: 'Lithium'},
-  {id: 4, name: 'Beryllium'},
-  {id: 5, name: 'Boron'},
-  {id: 6, name: 'Carbon'}
+  {id: 1, name: 'Ana'},
+
 
 ];
 
